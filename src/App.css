@@ -1,0 +1,22 @@
+.App{
+  text-align: center;
+ 
+}
+.Component{
+  padding: 5px;
+  margin: 10px auto 10px auto;
+  width: 75%;
+
+}
+.ComponentOne{
+  
+  background-color: aqua;
+}
+.ComponentTwo{
+
+  background-color: orange;
+}
+.ComponentThree{
+
+  background-color: green;
+}
