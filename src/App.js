@@ -3,9 +3,9 @@ import ComponentOne from "./components/ComponentOne"
 import ComponentTwo from "./components/ComponentTwo"
 import ComponentThree from "./components/ComponentThree"
 
-const aFunction = function (){
-  return "I'm just a function"
-}
+// const aFunction = function (){
+//   return "I'm just a function"
+// }
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <ComponentTwo fruit={"apple"} target={"Isaac Newton"}/>
         <ComponentThree list={["A","B","C"] } numberList={[1,2,3]} />
 
-        <ComponentOne functionProp={aFunction}/>
+        {/* <ComponentOne functionProp={aFunction}/> */}
         {/* <ComponentTwo /> */}
         {/* <ComponentThree/> */}
 
